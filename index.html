@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Problems</title>
+    <link rel="stylesheet" href="/SCRIMBA/practice/index.css">
+</head>
+<body>
+        <div id="nike">
+        <p>Nike Shoe</p>
+        <button onclick="purchase()">Purchase - $149</button>
+        <p id="error"></p>
+        </div>
+
+        <div id="calculator">
+            <span id="num1-el"></span>
+            <span id="num2-el"></span>
+            <br>
+            <button id="add-btn" onclick="add()">Add</button>
+            <button id="subtract-btn" onclick="subtract()">Subtract</button>
+            <button id="divide-btn" onclick="divide()">Divide</button>
+            <button id="multiply-btn" onclick="multiply()">Multiply</button>
+            <br>
+            <span id="sum-el" onclick="sum()">Sum: </span>
+        </div>
+
+        <div id="blackjack">
+            <p id="bjTitle">Blackjack</p>
+            <p id="dealer-hand">Dealer Hand</p>
+            <span class="bjn" id="dealerNumber1"></span>
+            <span class="bjn" id="dealerNumber2"></span>
+            <p id="dealer-Sum"></p>
+            <br>
+            <button onclick="deal()">Deal Hand</button><br>
+            <p>Player hand</p>
+            <span class="bjn" id="bJNumber1"></span>
+            <span class="bjn" id="bJNumber2"></span>
+            <p>
+            <span class="bjn" id="drawCard1"></span>
+            <span class="bjn" id="drawCard2"></span>
+            <span class="bjn" id="drawCard3"></span>
+            </p>
+            <p id="bJSum"></p>
+            <p id="question"></p>
+            
+            <button onclick="drawCard()">Draw Card</button>
+            <button onclick="stay()">Stay</button>
+            <button>Split</button>
+            <button>Double Down</button>
+            <br>
+            <button id="reset-btn" onclick="deal()">Reset</button>
+            <p id="status"></p>
+           
+
+            
+
+        </div>
+   <script src="/SCRIMBA/practice/index.js"></script>
+</body>
+</html>

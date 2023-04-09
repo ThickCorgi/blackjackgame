@@ -1,0 +1,77 @@
+#calculator {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+#nike {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px 0;
+    padding: 5px 8px;
+    
+}
+
+#blackjack {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
+    border: 5px solid black;
+    margin: 20px 0;
+    padding: 5px 8px;
+   background-image: url("https://t4.ftcdn.net/jpg/03/62/05/31/240_F_362053188_oQ0WRHCFkIY4QlXS1S5d1i9bpYup67ll.jpg");
+   background-size: cover;
+    
+}
+
+
+
+
+.bjn{
+    /*border: 1px solid black;*/
+    margin: auto;
+    margin:5px;
+    padding: 5px;
+}
+
+span {
+    border-bottom: 2px solid black;
+    padding:4px;
+}
+
+button{
+    margin: 20px 0;
+    background: white;
+    color:black;
+    border: 1px solid black;
+    font-weight:bold;
+    cursor:pointer;
+    padding: 5px 8px;
+}
+
+#bjTitle{
+    font-size: 45px;
+    color: goldenrod;
+    font-weight: bold;
+    margin:auto;
+
+}
+
+#bJSum{
+    
+    
+    background: white;
+    background-size: auto;
+    color:black;
+    border: 1px solid black;
+    font-weight:bold;
+    cursor:pointer;
+    padding: 5px 8px;
+    
+}
